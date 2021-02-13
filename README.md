@@ -1,3 +1,10 @@
+## meli-operacion-quarsar-frontend
+Para ingresar al sitio:
+
+<http://meli-operacion-quasar-frontend.azurewebsites.net>
+
+Para correr local:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
