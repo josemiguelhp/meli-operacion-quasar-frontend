@@ -1,4 +1,7 @@
-## meli-operacion-quarsar-frontend
+### meli-operacion-quarsar-frontend
+
+Frontend para operacion-quarsar se utilizo React, React-router, material-ui.
+
 Para ingresar al sitio:
 
 <http://meli-operacion-quasar-frontend.azurewebsites.net>
