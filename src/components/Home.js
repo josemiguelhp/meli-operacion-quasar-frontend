@@ -1,10 +1,14 @@
+import { Paper, Typography } from '@material-ui/core';
 import React from 'react';
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-    My Home page!
-  </div>
-);
-
-export default Home;
+export default function Home() {
+  return (
+    <div>
+      <Paper elevation={3}>
+        <Typography align='center' variant="h4" component="h1" gutterBottom>
+          Bienvenido!
+        </Typography>
+      </Paper>
+    </div>
+  );
+}

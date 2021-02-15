@@ -1,6 +1,6 @@
 ### meli-operacion-quarsar-frontend
 
-Frontend para operacion-quarsar se utilizo React, React-router, material-ui.
+Frontend para operacion-quarsar se utilizo React, React-router, material-ui. Se le ha aplicado un dise;o responsive que se vea bien tanto en escritorio como en mobiles.
 
 Para ingresar al sitio:
 
