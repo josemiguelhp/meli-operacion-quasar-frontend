@@ -34,7 +34,9 @@ export default function SimpleMenu() {
       .then((res) => {
         console.log(res)
         swal({
-          text: `Observacion actualizada correctamente!`,
+          text: `Se ha triangulado la nave en la posicion
+                   (${res.data.positon.x},${res.data.positon.y})
+                   y se ha obtenido el siguiente mensaje => ${res.data.message}`,
           icon: 'success',
         })
       })
