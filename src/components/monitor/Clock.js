@@ -54,7 +54,7 @@ export default class Clock extends React.Component {
                   : satellite.distance,
               message: !satellite.message
                 ? 'Sin Observacion'
-                : satellite.message,
+                : JSON.stringify(satellite.message),
             }
           })
           this.setSatellites(satellitesCurated)

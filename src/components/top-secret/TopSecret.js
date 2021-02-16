@@ -4,7 +4,6 @@ import Paper from '@material-ui/core/Paper'
 import { Box, Button, makeStyles, TextField } from '@material-ui/core'
 
 import swal from 'sweetalert'
-import { KeyboardReturnOutlined } from '@material-ui/icons'
 import axios from 'axios'
 
 const useStyles = makeStyles((theme) => ({
@@ -102,8 +101,12 @@ const TopSecret = () => {
       .catch((error) => {
         console.log(error)
         setDisableSend(false)
+        let message = 'Fallo al intentar cargar las observaciones'
+        if (error.response) {
+          message = error.response.data.message
+        }
         swal({
-          text: 'Fallo al intentar cargar las observaciones',
+          text: message,
           icon: 'error',
         })
       })
